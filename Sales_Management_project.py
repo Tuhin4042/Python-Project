@@ -108,53 +108,6 @@ def Purchase_Product():
         print("Wrong Selection!!!")
         exit()
     
-                
-'''   
-print("Are you sure to buy this product?")
-    con = int(input("1.Yes\n2.No\n"))
-    if(con==1):
-        print("Ok Sir...\n")
-        loc = r'E:\Code\Python\product.csv'
-        
-        with open(loc,'r+') as cf:
-            cw = csv.reader(cf)
-            cd = pd.DataFrame(cw)
-            for i in cd.index:
-                x = list(cd.loc[i])
-                if(row==x):
-                    tk = x[1] * quan
-                    print("Which Way you pay your bill\n1.Card\2.Cash\n")
-                    sec = int(input("Select: "))
-                    if(sec==1):
-                        print("Your bill",tk)
-                        pay =int(input("Pay: "))
-                        if(pay>tk):
-                            print("Thank You sir.")
-                            print("Refound: {} taka".format(pay-tk))
-                        elif(pay==tk):
-                            print("Thank You sir.")  
-                    else:
-                        print("Product Not Available")
-      
-            cf.close()     
-         
-        elif(con==2):
-            Purchase_Product()
-        else:
-            print("Wrong Selection.")
-
-    print("\nWhat do you want to do?")
-    cho = int(input("1.Go to User Section\n2.Exit\nChoise: "))
-    if(cho==1):
-        User()
-    elif(cho==2):
-        exit()
-    else:
-        print("Wrong Selection!!!")
-        exit()
-   
-    
-    '''
 
     
 def Manager():
