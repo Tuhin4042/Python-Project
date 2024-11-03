@@ -39,18 +39,16 @@ The grading scale used in the system is as follows:
 
 To run the UGC Uniform Grading System, follow these steps:
 
-1. **Clone the repository** or download the script.
-2. Ensure you have Python 3.x installed.
-3. Run the script in a terminal or command prompt.
-4. Input the required student details:
+1. Run the script in a terminal or command prompt.
+2. Input the required student details:
    - Name
    - ID
    - Total number of courses
-5. For each course, input:
+3. For each course, input:
    - Course Name
    - Course Credit
    - Course Grade Point
-6. The program will output academic results, including:
+4. The program will output academic results, including:
    - Individual course grades and grade points.
    - Total credits taken.
    - Calculated SGPA.
