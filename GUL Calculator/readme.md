@@ -39,6 +39,4 @@ Make sure you have Python installed on your machine. This application requires t
 3. Open a terminal or command prompt and navigate to the directory where `calculator.py` is located.
 4. Run the script using Python:
 
-   ```bash
-   python calculator.py
 
