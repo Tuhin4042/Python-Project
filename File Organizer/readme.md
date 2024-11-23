@@ -32,14 +32,6 @@ The script organizes files into the following predefined folders:
   - `os`: For directory and file operations.
   - `shutil`: For moving files.
 
----
 
-## Setup and Usage
-1. Clone this repository or download the script file.
-2. Ensure Python is installed on your system.
-3. Open a terminal or command prompt.
-4. Navigate to the script directory.
-5. Run the script using:
-   ```bash
-   python organize_files.py
+
 
